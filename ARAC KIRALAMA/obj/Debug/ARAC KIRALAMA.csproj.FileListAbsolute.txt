@@ -1,0 +1,32 @@
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\bin\Debug\ARAC KIRALAMA.exe.config
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\bin\Debug\ARAC KIRALAMA.exe
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\bin\Debug\ARAC KIRALAMA.pdb
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.Form1.resources
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.frmMusteriEkle.resources
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.Properties.Resources.resources
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.csproj.GenerateResource.cache
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.exe
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.pdb
+C:\Users\user\Desktop\arac kiralama 2\ARAC KIRALAMA\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.frmMusteriListele.resources
+C:\Users\LAB2_00\Downloads\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master\ARAC KIRALAMA\bin\Debug\ARAC KIRALAMA.exe.config
+C:\Users\LAB2_00\Downloads\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.exe
+C:\Users\LAB2_00\Downloads\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.pdb
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\bin\Debug\ARAC KIRALAMA.exe.config
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\bin\Debug\ARAC KIRALAMA.exe
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\bin\Debug\ARAC KIRALAMA.pdb
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.AraçKayıt.resources
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.AraçlistelemeFormu.resources
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.Form1.resources
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.MusteriEklemeFormu.resources
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.MüşteriListelemeFormu.resources
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.Properties.Resources.resources
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.csproj.GenerateResource.cache
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.exe
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC KIRALAMA.pdb
+C:\Users\user\Desktop\c1b3b9658aac00f4f8b026fcf9eced2f62a109bef470eb64f2acabed197bafce-master-2\ARAC KIRALAMA\obj\Debug\ARAC_KIRALAMA.Sözleşmeformu.resources
