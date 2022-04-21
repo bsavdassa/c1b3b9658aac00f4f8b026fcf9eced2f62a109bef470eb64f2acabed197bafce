@@ -42,7 +42,18 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.cmbKiralamatürü = new System.Windows.Forms.ComboBox();
             this.cmbAraçlar = new System.Windows.Forms.ComboBox();
+            this.txtAracınarkası = new System.Windows.Forms.TextBox();
+            this.txtKiraücreti = new System.Windows.Forms.TextBox();
+            this.txtAraçseri = new System.Windows.Forms.TextBox();
+            this.txtGün = new System.Windows.Forms.TextBox();
+            this.txtAracınrengi = new System.Windows.Forms.TextBox();
+            this.txtAracınmodeli = new System.Windows.Forms.TextBox();
             this.txtAracıntutarı = new System.Windows.Forms.TextBox();
             this.dateDonus = new System.Windows.Forms.DateTimePicker();
             this.dateCikis = new System.Windows.Forms.DateTimePicker();
@@ -57,19 +68,8 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtGün = new System.Windows.Forms.TextBox();
-            this.txtKiraücreti = new System.Windows.Forms.TextBox();
-            this.cmbKiralamatürü = new System.Windows.Forms.ComboBox();
-            this.txtAracınmodeli = new System.Windows.Forms.TextBox();
-            this.txtAraçseri = new System.Windows.Forms.TextBox();
-            this.txtAracınarkası = new System.Windows.Forms.TextBox();
-            this.txtAracınrengi = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -228,6 +228,58 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Araç";
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(386, 166);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(107, 30);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Temizle";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(13, 154);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(157, 42);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Hesapla";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(418, 101);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 59);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Sözleşme güncelleme";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(418, 31);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 59);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Sözleşme ekleme";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // cmbKiralamatürü
+            // 
+            this.cmbKiralamatürü.FormattingEnabled = true;
+            this.cmbKiralamatürü.Items.AddRange(new object[] {
+            "Günlük",
+            "Haftalık",
+            "Aylık"});
+            this.cmbKiralamatürü.Location = new System.Drawing.Point(270, 18);
+            this.cmbKiralamatürü.Name = "cmbKiralamatürü";
+            this.cmbKiralamatürü.Size = new System.Drawing.Size(100, 21);
+            this.cmbKiralamatürü.TabIndex = 3;
+            this.cmbKiralamatürü.SelectedIndexChanged += new System.EventHandler(this.cmbKiralamatürü_SelectedIndexChanged);
+            // 
             // cmbAraçlar
             // 
             this.cmbAraçlar.FormattingEnabled = true;
@@ -236,6 +288,48 @@
             this.cmbAraçlar.Size = new System.Drawing.Size(100, 21);
             this.cmbAraçlar.TabIndex = 3;
             this.cmbAraçlar.SelectedIndexChanged += new System.EventHandler(this.cmbAraçlar_SelectedIndexChanged);
+            // 
+            // txtAracınarkası
+            // 
+            this.txtAracınarkası.Location = new System.Drawing.Point(61, 47);
+            this.txtAracınarkası.Name = "txtAracınarkası";
+            this.txtAracınarkası.Size = new System.Drawing.Size(100, 20);
+            this.txtAracınarkası.TabIndex = 2;
+            // 
+            // txtKiraücreti
+            // 
+            this.txtKiraücreti.Location = new System.Drawing.Point(270, 46);
+            this.txtKiraücreti.Name = "txtKiraücreti";
+            this.txtKiraücreti.Size = new System.Drawing.Size(100, 20);
+            this.txtKiraücreti.TabIndex = 2;
+            // 
+            // txtAraçseri
+            // 
+            this.txtAraçseri.Location = new System.Drawing.Point(61, 74);
+            this.txtAraçseri.Name = "txtAraçseri";
+            this.txtAraçseri.Size = new System.Drawing.Size(100, 20);
+            this.txtAraçseri.TabIndex = 2;
+            // 
+            // txtGün
+            // 
+            this.txtGün.Location = new System.Drawing.Point(270, 73);
+            this.txtGün.Name = "txtGün";
+            this.txtGün.Size = new System.Drawing.Size(100, 20);
+            this.txtGün.TabIndex = 2;
+            // 
+            // txtAracınrengi
+            // 
+            this.txtAracınrengi.Location = new System.Drawing.Point(61, 128);
+            this.txtAracınrengi.Name = "txtAracınrengi";
+            this.txtAracınrengi.Size = new System.Drawing.Size(100, 20);
+            this.txtAracınrengi.TabIndex = 2;
+            // 
+            // txtAracınmodeli
+            // 
+            this.txtAracınmodeli.Location = new System.Drawing.Point(61, 101);
+            this.txtAracınmodeli.Name = "txtAracınmodeli";
+            this.txtAracınmodeli.Size = new System.Drawing.Size(100, 20);
+            this.txtAracınmodeli.TabIndex = 2;
             // 
             // txtAracıntutarı
             // 
@@ -359,80 +453,6 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Araçlar";
             // 
-            // txtGün
-            // 
-            this.txtGün.Location = new System.Drawing.Point(270, 73);
-            this.txtGün.Name = "txtGün";
-            this.txtGün.Size = new System.Drawing.Size(100, 20);
-            this.txtGün.TabIndex = 2;
-            // 
-            // txtKiraücreti
-            // 
-            this.txtKiraücreti.Location = new System.Drawing.Point(270, 46);
-            this.txtKiraücreti.Name = "txtKiraücreti";
-            this.txtKiraücreti.Size = new System.Drawing.Size(100, 20);
-            this.txtKiraücreti.TabIndex = 2;
-            // 
-            // cmbKiralamatürü
-            // 
-            this.cmbKiralamatürü.FormattingEnabled = true;
-            this.cmbKiralamatürü.Items.AddRange(new object[] {
-            "Günlük",
-            "Haftalık",
-            "Aylık"});
-            this.cmbKiralamatürü.Location = new System.Drawing.Point(270, 18);
-            this.cmbKiralamatürü.Name = "cmbKiralamatürü";
-            this.cmbKiralamatürü.Size = new System.Drawing.Size(100, 21);
-            this.cmbKiralamatürü.TabIndex = 3;
-            this.cmbKiralamatürü.SelectedIndexChanged += new System.EventHandler(this.cmbKiralamatürü_SelectedIndexChanged);
-            // 
-            // txtAracınmodeli
-            // 
-            this.txtAracınmodeli.Location = new System.Drawing.Point(61, 101);
-            this.txtAracınmodeli.Name = "txtAracınmodeli";
-            this.txtAracınmodeli.Size = new System.Drawing.Size(100, 20);
-            this.txtAracınmodeli.TabIndex = 2;
-            // 
-            // txtAraçseri
-            // 
-            this.txtAraçseri.Location = new System.Drawing.Point(61, 74);
-            this.txtAraçseri.Name = "txtAraçseri";
-            this.txtAraçseri.Size = new System.Drawing.Size(100, 20);
-            this.txtAraçseri.TabIndex = 2;
-            // 
-            // txtAracınarkası
-            // 
-            this.txtAracınarkası.Location = new System.Drawing.Point(61, 47);
-            this.txtAracınarkası.Name = "txtAracınarkası";
-            this.txtAracınarkası.Size = new System.Drawing.Size(100, 20);
-            this.txtAracınarkası.TabIndex = 2;
-            // 
-            // txtAracınrengi
-            // 
-            this.txtAracınrengi.Location = new System.Drawing.Point(61, 128);
-            this.txtAracınrengi.Name = "txtAracınrengi";
-            this.txtAracınrengi.Size = new System.Drawing.Size(100, 20);
-            this.txtAracınrengi.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(418, 31);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 59);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Sözleşme ekleme";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(418, 101);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 59);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Sözleşme güncelleme";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -440,6 +460,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(865, 266);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentDoubleClick);
             // 
             // button3
             // 
@@ -449,26 +470,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "Araç teslim";
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(13, 154);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(157, 42);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Hesapla";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(386, 166);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(107, 30);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Temizle";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Sözleşmeformu
             // 

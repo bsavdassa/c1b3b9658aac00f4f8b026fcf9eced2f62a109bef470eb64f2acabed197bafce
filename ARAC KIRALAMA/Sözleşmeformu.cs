@@ -81,7 +81,7 @@ namespace ARAC_KIRALAMA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string komut = "insert into sözleşme(tc,adsoyad,telefon,e_belgeno,e_tarih,e_yer,plaka,marka,seri,yil,renk,kiraşekli,kiraucreti,gun,tutar,ctarih,dtarih) values (@tc,@adsoyad,@telefon,@e_belgeno,@e_tarihi,@e_yer,@plaka,@marka,@seri,@yil,@renk,@kiraşekli,@kiraucreti,@gun,@tutar,@ctarih,@dtarih)";
+            string komut = "update sözleşme set tc=@tc,adsoyad=@adsoyad,telefon=@telefon,e_belgeno=@e_belgeno,e_tarih=@e_tarih,e_yer=@e_yer,marka=@marka,seri=@seri,yil=@yil,renk=@renk,kiraşekli=@kiraşekli,kiraucreti=@kiraucreti,gun=@gun,tutar=@tutar,ctarih=@ctarih,dtarih=@dtarih where plaka=@plaka";
             OleDbCommand komut2 = new OleDbCommand();
             komut2.Parameters.AddWithValue("@tc", txtTcsi.Text);
             komut2.Parameters.AddWithValue("@adsoyad", txtAdısoyadı.Text);
@@ -109,6 +109,48 @@ namespace ARAC_KIRALAMA
             Yenile();
             foreach (Control item in Controls) if (item is TextBox) item.Text = "";
             Temizleme();
+            MessageBox.Show("Sözleşme eklendi");
+        }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataGridViewRow satır = dataGridView1.CurrentRow;
+            txtTcsi.Text = satır.Cells[0].Value.ToString();
+            txtAdısoyadı.Text = satır.Cells[1].Value.ToString();
+            txtTelefonnumarası.Text = satır.Cells[2].Value.ToString();
+            txtEhliyetnosu.Text = satır.Cells[3].Value.ToString();
+            txtEhliyettarihi.Text = satır.Cells[4].Value.ToString();
+            txtEhliyetinverildiğiyer.Text = satır.Cells[5].Value.ToString();
+            cmbAraçlar.Text = satır.Cells[6].Value.ToString();
+            txtAracınarkası.Text = satır.Cells[7].Value.ToString();
+            txtAracınmodeli.Text = satır.Cells[8].Value.ToString();
+            txtAracınmodeli.Text = satır.Cells[9].Value.ToString();
+            txtAracınrengi.Text = satır.Cells[10].Value.ToString();
+            cmbKiralamatürü.Text = satır.Cells[11].Value.ToString();
+            txtKiraücreti.Text = satır.Cells[12].Value.ToString();
+            txtGün.Text = satır.Cells[13].Value.ToString();
+            txtAracıntutarı.Text = satır.Cells[14].Value.ToString();
+            dateCikis.Text = satır.Cells[15].Value.ToString();
+            dateDonus.Text = satır.Cells[16].Value.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow satır = dataGridView1.CurrentRow;
+            DateTime bugün = DateTime.Parse(DateTime.Now.ToShortDateString());
+            int ucret = int.Parse(satır.Cells["kiraucreti"].Value.ToString());
+            int tutar = int.Parse(satır.Cells["tutar"].Value.ToString());
+            DateTime çıkış = DateTime.Parse(satır.Cells["ctarih"].Value.ToString());
+            TimeSpan gun = bugün - çıkış;
+            int _gun = gun.Days;
+            int toplamTutar = _gun * ucret;
+            string sorgu1 = "delete from sözleşme where plaka='" + satır.Cells["plaka"].Value.ToString() + "'";
+            OleDbCommand komut = new OleDbCommand();
+            araçkiralama.ekle_sil_guncelle(komut, sorgu1);
+            string sorgu2 = "update araçlar set durumu='boş' where plaka='" + satır.Cells["plaka"].Value.ToString() + "'";
+            OleDbCommand komut2 = new OleDbCommand();
+            araçkiralama.ekle_sil_guncelle(komut2, sorgu2);
+            Yenile(); 
         }
     }
 }
